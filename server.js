@@ -5,6 +5,7 @@ var clients = [];
 
 ws.createServer(
 	function (websocket) {
+		
 	
 		clients.push(websocket);
 
